@@ -45,10 +45,21 @@ npx hardhat run scripts/deploy.js --network localhost
 Update the `NEXT_PUBLIC_CONTRACT_ADDRESS` in your frontend configuration with the newly deployed address.
 
 ## Testing
-Run the comprehensive unit test suite:
+### Unit Tests
+Run the comprehensive Hardhat unit test suite:
 ```bash
 npx hardhat test
 ```
+
+### Frontend E2E Readiness
+The frontend is built with automated verification in mind and includes all required `data-testid` attributes:
+- `connect-wallet-button`
+- `connected-address`
+- `sale-status`
+- `mint-count`
+- `total-supply`
+- `quantity-input`
+- `mint-button`
 
 ## Security & Optimization
 - **Check-Effects-Interactions**: Followed patterns to prevent re-entrancy.
