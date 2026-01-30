@@ -1,0 +1,13 @@
+node_modules
+frontend/node_modules
+artifacts
+cache
+frontend/.next
+frontend/out
+.env
+.env.local
+frontend/.env.local
+README.md
+task.md
+implementation_plan.md
+walkthrough.md

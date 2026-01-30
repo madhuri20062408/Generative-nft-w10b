@@ -1,0 +1,15 @@
+{
+    "name": "Cyber Warrior #1",
+    "description": "A premium Cyberpunk NFT from the launchpad collection.",
+    "image": "ipfs://YOUR_IMAGES_CID/1.png",
+    "attributes": [
+        {
+            "trait_type": "Theme",
+            "value": "Cyberpunk"
+        },
+        {
+            "trait_type": "Status",
+            "value": "Premium"
+        }
+    ]
+}

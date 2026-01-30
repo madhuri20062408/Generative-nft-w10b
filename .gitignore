@@ -1,0 +1,13 @@
+node_modules
+artifacts
+cache
+frontend/node_modules
+frontend/contracts
+frontend/allowlist.json
+frontend/.next
+frontend/out
+.env
+.env.local
+frontend/.env.local
+*.log
+merkle-root.txt
